@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout6"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context="com.example.citytourapp.calcuttalibrary">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper6"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="407dp"
+        android:layout_height="564dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper6">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="56dp"
+                android:fontFamily="@font/amarante"
+                android:paddingBottom="10dp"
+                android:text="The Calcutta Public Library began its journey on 21st March 1836. The Library was established for reference and lending, open to all, irrespective of class, colour and nationalities, on the self-financing principle.	Calcutta Public Library at house of F.B. Strong Calcutta Public Library at house of F.B. Strong
+The Calcutta Public Library was subsequently merged with the Imperial Library and combining the collection of a number of secretariat libraries, the Imperial Library was opened to the public in January in 1903.	Imperial Library at Metcalfe Hall Imperial Library at Metcalfe Hall
+After Independence of India, the National Library came into being in place of Imperial Library by the “Imperial Library (Change of Name) Act” in 1948. It was accorded a special status of an institution of national importance in the Article 62 in the 7th Schedule of the Union list of the Constitution of India and Maulana Abul Kalam Azad, the then Union Minister of Education opened the Library to Public on 1st February 1953."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

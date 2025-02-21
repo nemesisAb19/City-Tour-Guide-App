@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context="com.example.citytourapp.NextActivity2">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper1"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:layout_width="407dp"
+        android:layout_height="564dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="56dp"
+                android:fontFamily="@font/amarante"
+                android:paddingBottom="10dp"
+                android:text="Documented records of the throughfare can be traced back to 1760, when Kolkata (then Calcutta) was the capital of the British Empire in India. Since 1760, the street has been through several name changes.Previous names include 'Ghorustan ka Rasta', Vansittart Avenue and Burial Ground Road.Some 250 years ago, Park Street was known as Burial Ground Road and was not a preferred choice of residence, as there were a number of cemeteries in this area, the South Park Street Cemetery, opposite to it was the North Park Street Cemetery (now replaced by a school). Further west, there were two smaller cemeteries, one French and one Italian (now replaced by offices and schools).Park Street has been the main evening recreation zone for Kolkata people since the British era. In the 1970s and 1980s much of Kolkata's night life took place in Park Street, with many clubs and restaurants situated there. Many noted musicians had played at various popular night spots, such as Trinca's, Peter Cat, Oly Pub, Blue Fox, Mocambo and Moulin Rouge.
+                 Even before that, from the 1940s through to the late 1960s, Kolkata's prolific night life was centred on fashionable Park Street. The Park Hotel chain started with the opening of its first hotel, the 150 room The Park Hotel on 1 November 1967.The park street name coinage is assumed to be having association with such a history."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

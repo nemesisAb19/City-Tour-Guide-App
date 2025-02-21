@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout5"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context="com.example.citytourapp.prinsepghat">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper5"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="407dp"
+        android:layout_height="564dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="56dp"
+                android:fontFamily="@font/amarante"
+                android:paddingBottom="10dp"
+                android:text="The grand white structure is standing with all its élan and the mighty river flowing beside it. My journey for the day ends today here. I look at the river passing by taking with itself all the filth and dirt of the city, and so my heart is also cleansed of all the doubts and negativities. Princep Ghat or Prinsep Ghat always has this assuring effect on me. After monuments and graveyards, the third post in our Kolkata series is about this beautiful ghat in Kolkata.
+Bengalis and Kolkatans are by nature romantic. They love to recite Tagore whenever got chance. According to us, Princep Ghat is one of the most romantic places in Kolkata. It is a perfect place to meet up with friends, a great hangout place where you can gossip and chat over phuchkas and bhelpuris, a good place for catching up with your old friends. Located along the banks of the beautiful Hooghly River, the memorial was built in the memory of James Prinsep. The Vidyasagar Setu above it adds to its charm all the more."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

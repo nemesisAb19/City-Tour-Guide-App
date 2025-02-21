@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context="com.example.citytourapp.howrah_bridge">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper4"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="407dp"
+        android:layout_height="564dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="56dp"
+                android:fontFamily="@font/amarante"
+                android:paddingBottom="10dp"
+                android:text="The construction of the Howrah Bridge was first proposed in 1862. The Government of Bengal wanted to build a bridge over the Hooghly River. They asked the Chief Engineer of the East India Railway Company to study the feasibility of the idea and come up with a proposal. But for several reasons, his proposal never materialised.
+Later in the 1800s, a pontoon bridge or floating bridge was built between Howrah and Kolkata. But it wasn’t strong enough to handle the huge traffic between the two cities or to weather the frequent storms in the area. So the Bengal government continued to look for alternatives and, several decades later, the new bridge was finally commissioned. The contract to build it was awarded to a company called The Braithwaite Burn and Jessop Construction Company.
+Constructed without nuts and bolts, the Howrah Bridge was formed by riveting the entire steel structure. The bridge officially opened in 1943 when it was the world’s third longest cantilever bridge. Today, it is the sixth longest bridge of its type in the world.
+The Howrah Bridge is also thought to be the world’s busiest cantilever bridge. It handles about 100,000 vehicles and more than 150,000 pedestrians every day. While the bridge remains one of the key attractions in the city, the Howrah Junction Railway Station at its Howrah end is another site of much historical significance as the country’s oldest railway station. At the Kolkata end, the bridge ends right by the stunning and colourful Mallick Ghat flower market, one of the city’s most vibrant markets."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

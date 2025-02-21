@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context="com.example.citytourapp.victoria">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        tools:ignore="MissingConstraints">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="407dp"
+        android:layout_height="564dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="56dp"
+                android:fontFamily="@font/amarante"
+                android:paddingBottom="10dp"
+                android:text="Victoria Memorial is one of the famous and beautiful monuments of Kolkata. It was built between 1906 and 1921 to commemorate Queen Victoria's 25-year reign in India. After the Sepoy Mutiny of 1857, the British government gathered the reins of control of the country directly, and in 1876 the British parliament made Victoria the Empress of India. Her reign ended with her death in 1901.
+
+The Victoria Memorial is possibly the most awesome reminder of the Raj to be found in India. This huge white-marble museum, made from Makrana marbles from Rajasthan, is filled with a vast collection of remnants from the period of British Empire rule in India. The forms in the museum like the great dome, clustered with four subsidiary, octagonal domed chattris, the high portals, the terrace and the domed corner towers speak of a splendid richness in architecture. The Memorial is situated on 64 acres of land with the building covering 338 ft by 228 ft."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "411329174971",
+    "project_id": "citytourapp-c693d",
+    "storage_bucket": "citytourapp-c693d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:411329174971:android:52cc614e239436dbba789e",
+        "android_client_info": {
+          "package_name": "com.example.citytourapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "411329174971-0dt43eisnf8oovl7t5vek7fplvvuaa4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZOJzavoCppyLECY0xw4pp53xOgR0Kz8E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "411329174971-0dt43eisnf8oovl7t5vek7fplvvuaa4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

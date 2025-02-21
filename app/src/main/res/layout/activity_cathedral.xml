@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_list"
+    tools:context="com.example.citytourapp.cathedral">
+
+    <ViewFlipper
+        android:id="@+id/v_flipper3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+    </ViewFlipper>
+
+    <ScrollView
+        android:id="@+id/scrollView5"
+        android:layout_width="407dp"
+        android:layout_height="564dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/v_flipper3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="56dp"
+                android:fontFamily="@font/amarante"
+                android:paddingBottom="10dp"
+                android:text="Kolkata is an amalgamation of eclectic wonders - historical, cultural, architectural, artistic et al. And then, there are those wonders that blend all the said traits and some more. The St. Paul’s Cathedral in the heart of Kolkata is one such gem. Kolkata was the capital of India from 1772 to 1911 under the British rule and was known as Calcutta back then. As a result, the European community in Calcutta kept on swelling, and this Anglican cathedral was constructed to make room for the arriving expatriates and their families. The St. Paul’s Cathedral opened its doors in 1847 and was the first cathedral to have been built outside the UK. In fact, it was the first Episcopal church in  Asia. With such a rich heritage, the St. Paul’s Cathedral is a must-visit during your trip to the City of Joy.
+Bishop Daniel Wilson was the true force behind the construction of St. Paul’s Cathedral. Even though the European circle in the city was rife with talks of a new church ever since 1810, it was not until 1832 that the project was finally greenlit after a last-ditch effort by Bishop Wilson. The cornerstone of the church was finally laid in 1839, and it took eight years for the construction to get completed. The principal designer of the building was Major William Nairne Forbes, and the commissioned architect was C.K.Robinson. To mark the occasion of the cathedral’s consecration of 8 October 1847, Queen Victoria sent ten silver-gilt plates. After the death of Bishop Wilson in 1858, he was buried in the cathedral's premises."
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/v_flipper"
+                app:layout_constraintVertical_bias="1.0" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
