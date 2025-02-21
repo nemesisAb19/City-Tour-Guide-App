@@ -54,8 +54,8 @@ https://github.com/user-attachments/assets/079c1baf-50a1-4747-9c8d-2af3be6bade6
 ## 🚀 Installation & Setup  
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/City-Tour-App.git
-   cd City-Tour-App
+   git clone https://github.com/YOUR_USERNAME/City-Tour-Guide-App.git
+   cd City-Tour-Guide-App
 
 2. Open Android Studio and select "Open an Existing Project".
 3. Sync Gradle Files and wait for dependencies to install.
