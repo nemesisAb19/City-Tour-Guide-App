@@ -40,8 +40,16 @@ It helps users explore a new city by selecting places to visit.
 ## Demo Video
 Watch the full demo here: 
 
-## Screenshots
+https://github.com/user-attachments/assets/079c1baf-50a1-4747-9c8d-2af3be6bade6
 
+## Screenshots
+![Image](https://github.com/user-attachments/assets/96f50228-e55d-4732-9b8c-4a2a22738c5e)
+
+![Image](https://github.com/user-attachments/assets/5730e4fc-d055-45f9-8ec5-68cff7cdc70b)
+
+![Image](https://github.com/user-attachments/assets/7b5e89ce-36b1-4bba-a77d-be0fb23dc221)
+
+![Image](https://github.com/user-attachments/assets/645053ee-9ebe-44cb-96a4-12cc67615e69)
 
 ## 🚀 Installation & Setup  
 1. **Clone the repository:**  
