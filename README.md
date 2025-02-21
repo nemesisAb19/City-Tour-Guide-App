@@ -37,6 +37,12 @@ It helps users explore a new city by selecting places to visit.
 
 │── README.md
 
+## Demo Video
+Watch the full demo here: 
+
+## Screenshots
+
+
 ## 🚀 Installation & Setup  
 1. **Clone the repository:**  
    ```bash
