@@ -51,7 +51,7 @@ https://github.com/user-attachments/assets/079c1baf-50a1-4747-9c8d-2af3be6bade6
 
 ![Image](https://github.com/user-attachments/assets/645053ee-9ebe-44cb-96a4-12cc67615e69)
 
-## 🚀 Installation & Setup  
+## Installation & Setup  
 1. **Clone the repository:**  
    ```bash
    git clone https://github.com/nemesisAb19/City-Tour-Guide-App.git
