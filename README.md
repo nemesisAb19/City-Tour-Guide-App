@@ -54,7 +54,7 @@ https://github.com/user-attachments/assets/079c1baf-50a1-4747-9c8d-2af3be6bade6
 ## 🚀 Installation & Setup  
 1. **Clone the repository:**  
    ```bash
-   git clone https://github.com/YOUR_USERNAME/City-Tour-Guide-App.git
+   git clone https://github.com/nemesisAb19/City-Tour-Guide-App.git
    cd City-Tour-Guide-App
 
 2. Open Android Studio and select "Open an Existing Project".
